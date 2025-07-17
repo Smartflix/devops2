@@ -9,7 +9,7 @@
                     agent any
                     steps{
                 echo 'cloning...'
-                        git 'https://github.com/smartflix/DevOpsCodeDemo-1.git'
+                        git 'https://github.com/Smartflix/DevOpsCodeDemo-1.git'
                     }
                 }
                 stage('Compile with slave1'){
